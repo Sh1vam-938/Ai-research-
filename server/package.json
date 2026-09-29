@@ -1,0 +1,29 @@
+{
+  "name": "ai-research-workspace-server",
+  "version": "1.0.0",
+  "description": "Node.js + Express backend for AI Research Workspace",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "research",
+    "rag",
+    "ai",
+    "express"
+  ],
+  "author": "Abhinav",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "multer": "^2.2.0"
+  }
+}
